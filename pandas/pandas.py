@@ -27,8 +27,8 @@ two_dimensional_list = [
 two_dimensional_array = np.array(two_dimensional_list)
 
 array_df = pd.DataFrame(two_dimensional_list, columns = ['skirt', 'sweater','coat','jeans'])
------
 
+-----
 # 딕셔너리를 이용해서 만들기
 
 df = pd.DataFrame({
@@ -37,7 +37,7 @@ df = pd.DataFrame({
   'price' : [30000, 60000, 95000, 35000]
 })
 df
------
 
+===============================
 
 
