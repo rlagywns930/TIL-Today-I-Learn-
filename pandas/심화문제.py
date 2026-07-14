@@ -10,7 +10,7 @@ players_df.columns # 컬럼 확인 Index(['matches', 'minutes', 'goals', 'assist
 players_df.info()
 players_df.dtypes
 players_df.describe()
-
+loan_df.describe(include='all') # 모든 컬럼 통계 확인
 -----
 player_df[player_df.matches == max(player_df.matches)]['matches'] # Pierre Højbjerg, Hugo Lloris가 38경기로 가장 많은 경기를 치룸
 
