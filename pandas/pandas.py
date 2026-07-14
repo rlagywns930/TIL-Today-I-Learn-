@@ -67,6 +67,13 @@ burger_df = pd.read_csv('../data/burger.csv', index_col = 0)
 info() # 데이터프레임 구조 및 기본 정보 확인
 describe() # 기초 통계 정보 확인
 dtypes # 컬럼별 데이터 타입 확인
+describe(include='all') # 모든 컬럼 통계 확인
+sort_values(by = , ascending = False) # 특정 컬럼을 기준으로 내림차순으로 정렬 
+reset.index() # 설정된 인덱스를 원래대로 되돌리기
+set.index(' ', inplace = True ) # 컬럼을 인덱스로 설정
+astype() # 타입 변경
+unique() # 고유값 확인
+value_counts() # 고유값 개수 확인
 
 =============================================================================================
 iloc : 정수 인덱스 
